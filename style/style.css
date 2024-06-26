@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav */
+nav {
+  height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #35424a;
+  color: white;
+  border-bottom: 4px solid #a9508b;
+  flex-wrap: wrap;
+}
+nav h1 {
+  font-size: 2rem;
+}
+nav span {
+  color: #a9508b;
+}
+.nav-right a {
+  margin-right: 1rem;
+  color: white;
+  text-decoration: none;
+}
+.home {
+  color: #a9508b !important;
+}
+/* web-desing */
+.web-des {
+  height: 37vh;
+  background-image: url(../img/showcase.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+.web-des h2 {
+  font-size: 3.5rem;
+  color: white;
+}
+.web-des p {
+  color: white;
+  font-style: 1.4rem;
+}
+/* Subscribe */
+.subscribe {
+  height: 10vh;
+  background-color: #35424a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.subscribe h3 {
+  font-size: 2rem;
+}
+.subscribe input {
+  padding: 0.4rem 1rem;
+}
+.subscribe button {
+  background-color: #e8491d;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  color: white;
+}
+/* html-css */
+.html-css {
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.html-css div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+}
+.html-css img {
+  width: 5rem;
+  height: 5rem;
+}
+/* footer */
+footer {
+  background-color: #35424a;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .subscribe {
+    height: 25vh;
+  }
+  .html-css {
+    height: 35vh;
+  }
+}
